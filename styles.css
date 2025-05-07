@@ -689,6 +689,91 @@ p {
     }
 }
 
+/* ----------------------
+   11b. Micro Interações
+---------------------- */
+
+/* Botão CTA com efeito de clique */
+.cta-button:active {
+  transform: scale(0.96);
+}
+
+/* Link com sublinhado animado (caso use fora do menu principal) */
+.link-underline {
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+}
+.link-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: currentColor;
+  transition: width 0.3s ease;
+}
+.link-underline:hover::after,
+.link-underline:focus::after {
+  width: 100%;
+}
+
+/* Inputs com foco suave */
+input:focus,
+textarea:focus {
+  border-color: #000;
+  box-shadow: 0 0 0 3px #fffbcc;
+  outline: none;
+}
+
+/* Fade-in simples ao carregar (usado com JS ou aplicável diretamente no HTML) */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.8s ease forwards;
+}
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Modo Escuro - Toggle */
+:root {
+  --bg: #fff;
+  --text: #000;
+  --accent: #333;
+  --card-bg: #fff;
+}
+
+#dark-toggle:checked ~ body {
+  --bg: #111;
+  --text: #f1f1f1;
+  --accent: #fffbcc;
+  --card-bg: #1c1c1c;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.section,
+.service-card,
+.contact-form {
+  background-color: var(--card-bg);
+  transition: background-color 0.5s ease;
+}
+
+.nav-links a,
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text);
+}
+
+
 /* Print styles */
 @media print {
     #header, .cta-button, .contact-form, .embed-container {
