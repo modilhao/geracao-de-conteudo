@@ -1,0 +1,113 @@
+Você é um desenvolvedor sênior especializado em HTML5 e CSS3. Sua tarefa é construir uma landing page institucional de uma única página, responsiva e minimalista, para apresentar o projeto Geração de Conteúdo V3 e converter visitantes em leads. O foco está em clareza, leveza visual, excelente usabilidade mobile e código limpo.
+
+🧩 Contexto do Projeto
+Geração de Conteúdo V3 (GC V3) é um estúdio de crescimento Bot‑First que desenvolve ecossistemas digitais vivos para empresas B2B. A missão é criar sistemas que geram, nutrem e convertem leads com o mínimo de intervenção humana, utilizando bots, IA e webapps.
+
+🧱 Especificações Técnicas
+Linguagens: HTML5 + CSS3
+
+Fontes: Helvetica, sans-serif
+
+Cores: Preto (#000), Branco (#fff), tons de cinza
+
+Estilo: Minimalista, com amplo uso de espaço negativo e tipografia limpa
+
+Layout: Mobile-first, modular e de fácil manutenção
+
+Frameworks: Nenhum (apenas HTML + CSS)
+
+Acessibilidade: Usar tags semânticas (<section>, <header>, <main>, etc.) e garantir contraste nível WCAG AA
+
+Performance: Página deve carregar rapidamente (idealmente < 2s em redes 3G)
+
+🧭 Estrutura da Página
+Header fixo
+
+Exibir o logotipo (logo-gc-v3.svg)
+
+Menu de navegação com scroll suave para seções: Sobre, Ecossistemas, Para quem, Contato
+
+Link externo para o blog no Hashnode (https://geracaodeconteudo.hashnode.dev)
+
+Seção Hero
+
+Título: “Sistemas vivos para vendas inteligentes.”
+
+Subtítulo: “Criamos ecossistemas digitais vivos que vendem por você.”
+
+Botão CTA: “Agende uma conversa” (rolagem para a seção de Contato)
+
+Seção Manifesto
+
+Placeholder com parágrafo representando o manifesto da GC V3
+
+Seção Ecossistemas
+
+Lista de serviços oferecidos:
+
+Bots embutidos
+
+Webapps (calculadoras/simuladores)
+
+Landing pages conversacionais
+
+Nutrição automatizada de leads
+
+Seção Para Quem
+
+Texto explicativo sobre o foco em empresas B2B com vendas consultivas e ciclos longos
+
+Seção Blog
+
+Widget embed do Hashnode com últimos posts
+
+Embed: https://geracaodeconteudo.hashnode.dev/embed
+
+Seção Twitter
+
+Widget embed dos últimos tweets
+
+Embed: gerado via https://publish.twitter.com com perfil https://x.com/marcelambiente
+
+Seção Contato
+
+Formulário com campos: Nome, E-mail, Empresa (opcional), Mensagem
+
+Preparado para futura integração com Brevo ou Make.com
+
+Footer
+
+Texto: “© 2025 Geração de Conteúdo V3 — Sistemas vivos para vendas inteligentes.”
+
+Placeholder para o script de integração com ReplyAgent
+
+🔗 Integrações Futuras (Preparar estrutura)
+Bot: Script embed do ReplyAgent (a incluir)
+
+Formulário: Integração futura via Brevo ou Make.com
+
+Blog: Hashnode – https://geracaodeconteudo.hashnode.dev/embed
+
+Twitter: X.com – https://x.com/marcelambiente
+
+🎨 Estilo Visual
+Uso generoso de espaço negativo
+
+Alto contraste com tons de cinza, preto e branco
+
+Transições suaves em interações (hover, foco)
+
+Layout empilhado no mobile, em colunas no desktop
+
+Menu mobile tipo hambúrguer com transição suave
+
+Embeds sem barras de rolagem visíveis
+
+🛠️ Requisitos de Código
+Gere os arquivos index.html e style.css
+
+Utilize o arquivo logo-gc-v3.svg como logotipo no header
+
+Comente trechos relevantes do HTML e CSS para facilitar futuras edições por outros desenvolvedores
+
+Estrutura clara e modular, com identação consistente
