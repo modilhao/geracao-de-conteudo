@@ -809,3 +809,38 @@ h1, h2, h3, h4, h5, h6 {
         page-break-inside: avoid;
     }
 }
+/* 13. External Platforms */
+.platforms-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.platform-card {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 4px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.platform-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.platform-card h3 {
+  margin-bottom: 1rem;
+}
+
+.platform-card p {
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+@media (min-width: 768px) {
+  .platforms-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
