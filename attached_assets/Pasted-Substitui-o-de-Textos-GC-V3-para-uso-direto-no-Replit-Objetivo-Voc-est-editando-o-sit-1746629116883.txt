@@ -1,0 +1,111 @@
+Substituição de Textos — GC V3 (para uso direto no Replit)
+
+## 🎯 Objetivo
+
+Você está editando o site da **Geração de Conteúdo V3** em HTML + CSS puro.  
+A estrutura já está pronta.  
+**Sua tarefa é única e específica: substituir os textos (copy) conforme indicado abaixo.**
+
+---
+
+## 🚫 Regras obrigatórias
+
+- ❌ NÃO altere a estrutura HTML.
+- ❌ NÃO adicione ou remova tags, classes, atributos, scripts ou estilos.
+- ❌ NÃO modifique o CSS.
+- ✅ **Apenas edite os textos entre as tags já existentes** (`<h1>`, `<p>`, `<ul>`, etc.).
+
+---
+
+## ✍️ NOVOS TEXTOS (COPY APLICAR)
+
+### 🔹 HERO
+```html
+<h1>Sistemas vivos para vendas inteligentes.</h1>
+<p>Você não precisa de um site bonito. Precisa de um organismo digital que capta, conversa e converte — enquanto você dorme. A GC V3 arquiteta sistemas autônomos que aceleram crescimento real, ou te avisam que é hora de mudar. Accelerate or die.</p>
+```
+
+---
+
+### 🔹 MANIFESTO
+```html
+<p>
+Não vendemos páginas. Vendemos arquiteturas.  
+Nossos sistemas não são entregues prontos — são cultivados. Como organismos, eles vivem, aprendem, reagem, escalam.  
+Se você ainda depende de planilhas manuais, e-mails genéricos e sites que apenas exibem, talvez esteja parado demais.  
+Na GC V3, acreditamos que marketing não é barulho. É sistema nervoso.  
+E sistemas nervosos que não reagem... morrem.  
+Por isso, escrevemos em markdown. Automatizamos com propósito. Conectamos bots que escutam mais do que falam.  
+Nós não criamos sites. Criamos ecossistemas vivos.  
+</p>
+```
+
+---
+
+### 🔹 ECOSSISTEMAS
+```html
+<h2>Ecossistemas Digitais</h2>
+<p>Você já tem um site. E ele provavelmente está mudo. Nossos ecossistemas falam, respondem, aprendem. Aqui, cada módulo funciona sozinho — e melhor ainda em rede.</p>
+<ul>
+  <li><strong>Bots nativos:</strong> Qualificam leads, tiram dúvidas e agendam por você. 24/7.</li>
+  <li><strong>Webapps:</strong> Simuladores, calculadoras, captadores. Construímos utilidade, não landing pages com efeito parallax.</li>
+  <li><strong>Landing pages conversacionais:</strong> Que escutam, conduzem e convertem. Sem fricção.</li>
+  <li><strong>Nutrição automatizada:</strong> Fluxos vivos que acompanham o ciclo do cliente — e não o do seu marketing interno.</li>
+</ul>
+```
+
+---
+
+### 🔹 PARA QUEM É
+```html
+<h2>Para quem é</h2>
+<p>
+Se você vende para empresas. Se sua venda depende de conversas.  
+Se seu cliente tem múltiplos decisores e seu ciclo leva semanas ou meses.  
+Se sua equipe não pode mais perder tempo com leads frios, formulários quebrados e pipelines manuais.  
+Então este ecossistema é para você.
+</p>
+<p>
+Atendemos empresas B2B que precisam crescer com inteligência, não com suor e sorte.  
+</p>
+```
+
+---
+
+### 🔹 CONTATO
+```html
+<h2>Vamos conversar</h2>
+<p>
+Se o seu site está parado, o problema não é o design — é o sistema.  
+Fale com a gente. Vamos construir uma estrutura viva que funcione com ou sem você online.
+</p>
+```
+
+---
+
+### 🔹 BLOG
+```html
+<h2>O que estamos pensando</h2>
+<p>
+Publicamos ideias, frameworks, provocações.  
+Aqui você vê como pensamos — e como isso pode impactar o seu crescimento.  
+</p>
+```
+
+---
+
+### 🔹 TWITTER / X
+```html
+<h2>Pulso em tempo real</h2>
+<p>
+Nossos insights em 280 caracteres. Cravados no agora.  
+</p>
+```
+
+---
+
+🔁 Após aplicar os textos, visualize o site.  
+Se algo sair do lugar, reverta imediatamente.  
+Este site é um organismo — e deve continuar vivo.
+
+**Accelerate or die.**
