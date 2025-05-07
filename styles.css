@@ -815,11 +815,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .platforms-intro {
-  max-width: 700px;
+  max-width: 800px;
   margin: 0 auto 3rem;
   text-align: center;
-  font-size: 1.2rem;
-  color: #555;
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
 }
 
 .platforms-grid {
@@ -852,14 +853,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .platform-card h3 {
   margin-bottom: 1rem;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   color: #000;
 }
 
 .platform-card p {
   margin-bottom: 2rem;
-  color: #555;
-  font-size: 1.1rem;
+  color: #333;
+  font-size: 1rem;
   line-height: 1.6;
 }
 
