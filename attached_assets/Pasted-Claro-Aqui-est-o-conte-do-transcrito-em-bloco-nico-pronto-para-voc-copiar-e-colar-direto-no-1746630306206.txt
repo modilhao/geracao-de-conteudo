@@ -1,0 +1,94 @@
+Claro! Aqui está o conteúdo transcrito **em bloco único**, pronto para você copiar e colar direto no Replit ou no seu editor de código, **sem seções separadas**:
+
+---
+
+Você deve substituir apenas os textos do site, **sem alterar a estrutura do HTML**. Use `<strong>` para negrito e `<span class="highlight">` para destaque visual.
+O CSS já deve conter:
+
+```css
+.highlight {
+  background-color: #fffbcc;
+  padding: 0 0.2em;
+  border-radius: 3px;
+}
+```
+
+Substitua os textos conforme abaixo:
+
+```html
+<h1>Sistemas vivos para vendas inteligentes.</h1>
+<p>
+Você não precisa de um site bonito. Precisa de um <strong>organismo digital</strong> que <strong>capta</strong>, <strong>conversa</strong> e <strong>converte</strong> — enquanto você dorme.  
+A GC V3 arquiteta sistemas autônomos que <span class="highlight">aceleram crescimento real</span>, ou te avisam que é hora de mudar.  
+<strong>Accelerate or die.</strong>
+</p>
+
+<p>
+Não vendemos <strong>páginas</strong>. Vendemos <strong>arquiteturas</strong>.  
+Nossos sistemas não são entregues prontos — são <span class="highlight">cultivados</span>.  
+Como organismos, eles <strong>vivem, aprendem, reagem, escalam</strong>.  
+Se você ainda depende de planilhas manuais, e-mails genéricos e sites que apenas exibem, talvez esteja parado demais.  
+Na GC V3, acreditamos que <strong>marketing não é barulho</strong>. É <span class="highlight">sistema nervoso</span>.  
+E sistemas nervosos que não reagem... <strong>morrem</strong>.  
+Por isso, escrevemos em <strong>markdown</strong>. Automatizamos com <span class="highlight">propósito</span>.  
+Conectamos bots que <strong>escutam mais do que falam</strong>.  
+Nós não criamos sites. Criamos <strong>ecossistemas vivos</strong>.
+</p>
+
+<h2>Ecossistemas Digitais</h2>
+<p>
+A maioria dos sites é apenas uma <strong>vitrine estática</strong>. Bonita, mas surda.  
+Empresas com vendas complexas não precisam de presença digital — precisam de <strong>sistemas vivos</strong> que <span class="highlight">entendem o cliente, conversam com ele e movem ele adiante</span>.
+</p>
+<p>
+Nossos ecossistemas são compostos por módulos que atacam as maiores dores do marketing B2B:  
+<span class="highlight">tempo desperdiçado com leads frios</span>,  
+<span class="highlight">dependência de equipe para cada interação</span>, e  
+<span class="highlight">falta de previsibilidade na geração de demanda</span>.
+</p>
+<ul>
+  <li><strong>Bots nativos:</strong> Substituem formulários. Entendem o lead, tiram dúvidas, qualificam e agendam — <span class="highlight">sem depender da sua equipe</span>.</li>
+  <li><strong>Webapps úteis:</strong> Simuladores e calculadoras que geram valor antes da venda — <span class="highlight">sem precisar falar com um vendedor</span>.</li>
+  <li><strong>Landing pages conversacionais:</strong> Criamos fluxos que <strong>escutam, adaptam e convertem</strong> com o mínimo de atrito.</li>
+  <li><strong>Nutrição automatizada:</strong> Fluxos que mantêm seu lead aquecido — <span class="highlight">mesmo se sua equipe estiver offline</span>.</li>
+</ul>
+
+<h2>Para quem é</h2>
+<p>
+Se você <strong>vende para empresas</strong>. Se sua venda depende de <strong>conversas</strong>.  
+Se seu cliente tem <span class="highlight">múltiplos decisores</span> e seu ciclo leva <strong>semanas ou meses</strong>.  
+Se sua equipe já não pode mais perder tempo com <span class="highlight">leads frios</span> ou <span class="highlight">pipelines manuais</span>...  
+Então este ecossistema é para você.
+</p>
+<p>
+Atendemos empresas B2B que querem <strong>crescer com inteligência</strong>, não com <span class="highlight">suor e sorte</span>.
+</p>
+
+<h2>Vamos conversar</h2>
+<p>
+Se o seu site está parado, o problema não é o design — é o <strong>sistema</strong>.  
+Fale com a gente.  
+Vamos construir uma <span class="highlight">estrutura viva</span> que funcione com ou sem você online.
+</p>
+
+<h2>O que estamos pensando</h2>
+<p>
+Publicamos <strong>ideias, frameworks, provocações</strong>.  
+Aqui você vê como pensamos — e como isso pode <span class="highlight">impactar o seu crescimento</span>.
+</p>
+
+<h2>Pulso em tempo real</h2>
+<p>
+Nossos insights em <strong>280 caracteres</strong>.  
+Cravados no <span class="highlight">agora</span>.
+</p>
+```
+
+✅ Após aplicar, visualize no navegador e valide o comportamento responsivo.
+🚫 Não modifique estilos, estruturas ou scripts.
+🧬 Este site é um organismo. Ele evolui. Mantenha-o vivo.
+**Accelerate or die.**
+
+---
+
+Pronto para colar direto no código. Se precisar que eu te ajude a localizar onde inserir cada trecho, posso te orientar também!

@@ -521,6 +521,12 @@ p {
     text-align: center;
 }
 
+.highlight {
+  background-color: #fffbcc;
+  padding: 0 0.2em;
+  border-radius: 3px;
+}
+
 .mt-1 { margin-top: 0.5rem; }
 .mt-2 { margin-top: 1rem; }
 .mt-3 { margin-top: 1.5rem; }
