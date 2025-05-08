@@ -847,8 +847,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .platform-icon {
-  font-size: 2.5rem;
+  width: 48px;
+  height: 48px;
   margin-bottom: 1.5rem;
+  object-fit: contain;
 }
 
 .platform-card h3 {
