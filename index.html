@@ -6,8 +6,10 @@
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <meta content="Geração de Conteúdo V3 – Sistemas vivos para vendas inteligentes. Criamos ecossistemas digitais vivos que vendem por você." name="description"/>
 <title>Geração de Conteúdo V3 | Sistemas vivos para vendas inteligentes</title>
-<!-- CSS principal -->
-<link href="styles.css" rel="stylesheet"/>
+<!-- CSS principal (minificado) -->
+<link href="styles.min.css" rel="stylesheet"/>
+<!-- Cache-Control para recursos estáticos -->
+<meta http-equiv="Cache-Control" content="max-age=31536000"/>
 <link href="https://sibforms.com/forms/end-form/build/sib-styles.css" rel="stylesheet"/>
 <!-- SEO: Open Graph e Twitter -->
 <meta content="Geração de Conteúdo V3" property="og:title"/>
@@ -37,7 +39,7 @@
 <header id="header">
 <div class="container header-container">
 <a aria-label="Geração de Conteúdo V3" class="logo" href="#">
-<img alt="Logo Geração de Conteúdo V3" height="auto" loading="lazy" src="assets/logo-gc-v3.png" width="300"/>
+<img alt="Logo Geração de Conteúdo V3" height="40" src="assets/webp/logo-gc-v3.webp" width="180"/>
 </a>
 <nav class="main-nav">
 <button aria-expanded="false" aria-label="Abrir menu" class="menu-toggle">
@@ -271,57 +273,8 @@
 </div>
 </div>
 </footer>
-<!-- JavaScript para funcionalidades básicas -->
-<script>
-            document.addEventListener("DOMContentLoaded", function () {
-                // Menu mobile toggle
-                const menuToggle = document.querySelector(".menu-toggle");
-                const navLinks = document.querySelector(".nav-links");
-
-                menuToggle.addEventListener("click", function () {
-                    navLinks.classList.toggle("active");
-                    menuToggle.classList.toggle("active");
-                    menuToggle.setAttribute(
-                        "aria-expanded",
-                        menuToggle.getAttribute("aria-expanded") === "false"
-                            ? "true"
-                            : "false",
-                    );
-                });
-
-                // Smooth scrolling for anchor links
-                document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-                    anchor.addEventListener("click", function (e) {
-                        e.preventDefault();
-
-                        // Close mobile menu when a link is clicked
-                        if (navLinks.classList.contains("active")) {
-                            navLinks.classList.remove("active");
-                            menuToggle.classList.remove("active");
-                            menuToggle.setAttribute("aria-expanded", "false");
-                        }
-
-                        const targetId = this.getAttribute("href");
-                        const targetElement = document.querySelector(targetId);
-
-                        if (targetElement) {
-                            // Account for fixed header when scrolling
-                            const headerHeight =
-                                document.querySelector("#header").offsetHeight;
-                            const targetPosition =
-                                targetElement.getBoundingClientRect().top +
-                                window.pageYOffset -
-                                headerHeight;
-
-                            window.scrollTo({
-                                top: targetPosition,
-                                behavior: "smooth",
-                            });
-                        }
-                    });
-                });
-            });
-        </script>
+<!-- JavaScript minificado para funcionalidades básicas -->
+<script defer src="scripts.min.js"></script>
 <script defer="" src="https://sibforms.com/forms/end-form/build/main.js"></script>
 <script async="" defer="" src="https://www.google.com/recaptcha/api.js?render=6Ld21jErAAAAADMX4VPHcTEYajtvYa4kEafYrq0b&amp;hl=pt"></script>
 
